@@ -1,0 +1,517 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.navbar-kiri {
+    flex: 1;
+}
+
+.navbar-kanan {
+    flex: 3;
+}
+
+#logo-atas {
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.menu-navigation {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+
+.menu-navigation > li {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 40px 10px 40px;
+    list-style-type: none;
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.home-content {
+    display: flex;
+}
+
+/*Home*/
+.page1 {
+    display: flex;
+}
+
+.page1-kiri {
+    flex: 1;
+}
+
+.page1-judul {
+    text-align: center;
+}
+
+.page1-judul > h1 {
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page1-judul > p {
+    font-size: 18px;
+    color: grey;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page1-kiri-top {
+    display: grid;
+    justify-content: center;
+    margin: 10px 0px 10px 0px;
+}
+
+#gambar-view {
+    width: 500px;
+    object-fit: cover;
+    aspect-ratio: 1.5/1;
+}
+
+/* Profile */
+.material-symbols-outlined {
+    background-color: gainsboro;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.img-review {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-review > p {
+    text-align: center;
+    font-style: italic;
+}
+
+.profile {
+    display: flex;
+    margin: 10px 0px 10px 0px;
+}
+
+.personal-profile {
+    margin: 0px 0px 0px 10px;
+}
+
+.profile-name {
+    font-weight: bold;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.profile-occupation {
+    font-style: italic;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    width: 40%;
+}
+
+/* PAGE 1 BOTTOM */
+.page1-kiri-bottom > h1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.page1-kiri-bottom > p {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.material-symbols-outlined {
+    background-color: gainsboro;
+    border-radius: 50px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+}
+
+.disc-bot1 {
+    display: flex;
+    font-style: italic;
+    flex-direction: column;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    background-color: gainsboro;
+    border-radius: 50px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+}
+
+.disc-bot2 {
+    display: flex;
+    font-style: italic;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.material-symbols-outlined {
+    background-color: gainsboro;
+    border-radius: 50px;
+    margin: 0px 0px 5px 0px;
+    padding: 5px;
+}
+
+.disc-bot3 {
+    display: flex;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* HOME KANAN */
+
+.page1-kanan {
+    flex: 1;
+}
+
+.container-home-kanan {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0px 10px 0px;
+    margin-right: 300px;
+    display: grid;
+    justify-content: center;
+    background-color: rgb(236, 236, 236);
+
+}
+
+.container-home-kanan > h1{
+    margin: 10px 0px 0px 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-home-kanan > p{
+    margin: 10px 0px 50px 10px;
+}
+
+.container-home-kanan > form{
+    margin: 10px;
+}
+
+#input-name {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#input-email {
+    height: 30px;
+    width: 250px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#interest-option {
+    height: 36px;
+    width: 258px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 0px;
+}
+
+#button-send {
+    height: 36px;
+    width: 258px;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px 0px 10px 10px;
+    color: aliceblue;
+    background-color: darkolivegreen;
+}
+
+
+/* SECTION OUR PACKAGE */
+.our-package {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    padding: 60px 0px 60px 0px;
+    background-color: #f2f2f2;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+
+/* CARD 1 */
+/* BALI CARD */
+.card-1 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.bali-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.bali-card-1 {
+    display: flex;
+}
+
+.bali-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bali-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* JAPAN CARD */
+.japan-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.japan-card-1 {
+    display: flex;
+}
+
+.japan-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.japan-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* SINGAPORE CARD */
+.singapore-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.singapore-card-1 {
+    display: flex;
+}
+
+.singapore-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.singapore-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* CARD 2 */
+/* BANDUNG CARD */
+.card-2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.bandung-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.bandung-card-1 {
+    display: flex;
+}
+
+.bandung-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.bandung-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* SURABAYA CARD */
+.surabaya-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.surabaya-card-1 {
+    display: flex;
+}
+
+.surabaya-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.surabaya-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+/* THIRD FEATURE CARD */
+.thirdfeature-card {
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+}
+
+.thirdfeature-card-1 {
+    display: flex;
+}
+
+.thirdfeature-card-1 >h2 {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.thirdfeature-card-2 >p {
+    display: flex;
+    margin-left: 45px;
+    font-size: 20px;
+}
+
+.closing {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.statement {
+    margin: 30px 0px 30px 0px;
+}
+
+.statement > h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+}
+
+.statement > p {
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.button-call {
+    display: flex;
+    width: 200px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    background-color: grey;
+}
+
+/* #button-call {
+    height: 36px;
+    width: 258px;
+    border-width: 2px;
+    margin: 10px 0px 10px 10px;
+    color: aliceblue;
+    background-color: darkolivegreen;
+} */
+
+#logo-footer {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin-top: 15px;
+    margin-right: 575px;
+    margin-left: 575px;
+    
+}
